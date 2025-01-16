@@ -28,4 +28,5 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 change and push from developeranil
+change 2
 require __DIR__.'/auth.php';
